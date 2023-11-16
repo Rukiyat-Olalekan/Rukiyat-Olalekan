@@ -1,49 +1,44 @@
 import { Link } from "react-router-dom";
 
 import classes from "./Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
     <footer>
-      <div className={classes.links}>
-        {" "}
-        <ul>
+        <ul className={classes["routes-list"]}>
           <li>
-            <Link to="https://github.com/Rukiyat-Olalekan">GITHUB</Link>
-            <p>Check my projects on github</p>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="https://www.linkedin.com/in/rukiyat-olalekan/">
-              LINKEDIN
-            </Link>
-            <p>Follow on linkedIn. I post daily about web development</p>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="https://twitter.com/TheDevRukky">TWITTER</Link>
-            <p>
-              Follow for web design & development articles, opinions, and links
-            </p>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
-      </div>
-      <div className={classes.routes}>
-        {" "}
-        <ul>
-          <li>
-            <Link to="/projects">PROJECTS</Link>
-            <p>Check Rukiyat's previous works</p>
-          </li>
-          <li>
-            <Link to="/about">ABOUT</Link>
-            <p>Get to know Rukiyat</p>
-          </li>
-          <li>
-            <Link to="/contact">CONTACT</Link>
-            <p>Send a message. Let's collaborate</p>
-          </li>
-        </ul>
-      </div>
-      <div className={classes.color}></div>
+        <ul className={classes.socials}>
+            <li>
+              <a href="https://github.com/Rukiyat-Olalekan">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rukiyat-olalekan/">
+                {" "}
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/TheDevRukky">
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </a>
+            </li>
+          </ul>
+        <p className={classes.reserved}>Copyright &nbsp; 2023 Rukiyat Olalekan. All rights reserved.</p>
     </footer>
   );
 };

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
 nav {
   width: 100%;
   display: flex;
@@ -14,6 +16,7 @@ nav {
 }
 .header {
   margin: 0;
+  font-family: 'Zeyada', cursive;
 }
 .menu-bar {
   display: none;

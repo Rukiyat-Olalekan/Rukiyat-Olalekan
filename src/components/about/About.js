@@ -25,11 +25,14 @@ const About = () => {
         scientific background, I bring a unique perspective to technology.{" "}
         <br />
         <br />
-        When I'm not coding, you will find me engaged in reading or exercising
-        because I firmly believe an active body nurtures an active mind. I invite you
-        to join me on this exciting exploration as we bridge the worlds of
-        science and technology. Let's collaborate and push the boundaries
-        together, creating meaningful and impactful experiences.
+        When I'm not coding, you will find me engaged in reading and staying
+        active through exercising because I firmly believe an active body
+        nurtures an active mind.
+        <br />
+        <br />
+        Thank you for taking the time to learn more about me. I am excited to
+        connect with you and explore how we can work together to create
+        meaningful and impactful experience.
       </p>
     </div>
   );

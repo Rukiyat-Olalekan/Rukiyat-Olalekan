@@ -12,8 +12,8 @@ body {
   background-color: white;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
   display: flex;
+  height: 100vh;
   flex-direction: column;
 }
 a {
@@ -42,5 +42,5 @@ p {
   font-size: 1.2rem;
 }
 .home, .projects, .about, .contact  {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
