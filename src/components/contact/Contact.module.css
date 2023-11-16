@@ -1,0 +1,12 @@
+.contact {
+    margin: 0.5rem;
+}
+
+.message {
+    padding: 0.5rem;
+    font-size: bold;
+}
+.message p {
+    font-size: 1.5rem;
+    line-height: 2;
+}

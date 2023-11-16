@@ -1,0 +1,13 @@
+.about {
+    width: 50rem;
+    margin: 0 auto 2rem auto;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    font-size: larger;
+    line-height: 2;
+}

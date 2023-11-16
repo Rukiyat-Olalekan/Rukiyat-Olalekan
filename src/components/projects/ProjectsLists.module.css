@@ -1,0 +1,53 @@
+
+.project {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+}
+
+.project-num {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.project-overview {
+    background-color: teal;
+    height: 20rem;
+    width: 30vw;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 300ms, color 300ms;
+    padding: 0 0.5rem;
+}
+.project-overview:hover {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.project-overview p {
+    font-size: 2rem;
+}
+.project-overview p a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(239, 210, 24);
+}
+.project-description {
+    line-height: 2;
+}
+.projects-header {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 2rem 0;
+}
+.projects-header::after {
+    content: "😊";
+}
+.project-lists {
+    width: 60rem;
+    text-align: left;
+}

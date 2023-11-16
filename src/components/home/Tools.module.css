@@ -1,0 +1,37 @@
+.tools-lists {
+  margin-top: 2rem;
+}
+.tools-lists h3 {
+  color: rgb(239, 210, 24);
+}
+.tools-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: calc(20% + 5px);
+  width: 100%;
+}
+.tool-item {
+  text-align: left;
+  box-shadow: 2px 5px 20px rgba(30, 37, 30, 0.5);
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+img {
+  width: 30%;
+  max-width: 100%;
+}
+.tool-item:hover {
+  transform: scale(1.1);
+  transition: transform 500ms;
+}
+
+@media screen and (max-width: 800px) {
+  .tools-list {
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 2rem auto;
+  }
+}

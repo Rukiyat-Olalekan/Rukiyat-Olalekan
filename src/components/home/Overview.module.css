@@ -1,0 +1,19 @@
+.overview {
+    width: 80%;
+    margin: 1rem auto;
+}
+.overview h2 {
+    color: purple;
+}
+.overview .para {
+    border-radius: 5px 5px 100px 5px;
+    box-shadow: 2px 5px 20px rgba(30, 37, 30, 0.5);
+    padding: 2rem 1rem;
+    line-height: 2;
+}
+
+@media screen and (max-width: 450px) {
+    .overview {
+        display: none;
+    }
+}
