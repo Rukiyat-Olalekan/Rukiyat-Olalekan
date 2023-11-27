@@ -44,3 +44,9 @@
     background-color: black;
     color: white;
 }
+@media (max-width: 430px) {
+    .form {
+        width: 20rem;
+        margin: auto
+    }
+}

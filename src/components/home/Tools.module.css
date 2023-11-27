@@ -28,10 +28,17 @@ img {
   transition: transform 500ms;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 430px) {
+  .tools-lists {
+    margin-top: 1rem;
+  }
   .tools-list {
     flex-wrap: wrap;
-    width: 70vw;
-    margin: 2rem auto;
+    
+    margin: 1rem auto;
+  }
+  .tool-item {
+    margin: 1rem auto;
+    width: 80%;
   }
 }

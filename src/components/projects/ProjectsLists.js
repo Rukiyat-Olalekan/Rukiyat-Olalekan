@@ -31,7 +31,7 @@ const Project = (props) => {
         <h3>{props.id}.</h3>
         <div className={classes["project-overview"]}>
           <p>
-            Check <a href={props.link}>{props.name}</a> on Github 
+            Check <a href={props.link}>{props.name}</a> on Github
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Project = (props) => {
 };
 const ProjectsLists = () => {
   return (
-    <div>
+    <div className={classes.projects}>
       <h3 className={classes["projects-header"]}>
         These are some of my projects, check out more on{" "}
         <a href="https://github.com/Rukiyat-Olalekan">Github</a>

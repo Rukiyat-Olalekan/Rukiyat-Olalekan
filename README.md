@@ -1,5 +1,7 @@
 # Rukiyat Olalekan's Personal Website
 
+https://rukiyat-olalekan.netlify.app
+
 ## Overview
 
 Welcome to my personal website! This space is dedicated to showcasing who I am, my projects, and my interests. Feel free to explore and learn more about me.

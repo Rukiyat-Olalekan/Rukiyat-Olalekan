@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 
 nav {
   width: 100%;
@@ -12,11 +12,11 @@ nav {
   background-color: white;
   box-shadow: 5px 5px 20px 2px rgba(175, 175, 175, 0.5);
   text-transform: uppercase;
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
 }
 .header {
   margin: 0;
-  font-family: 'Zeyada', cursive;
+  font-family: "Zeyada", cursive;
 }
 .menu-bar {
   display: none;
@@ -30,28 +30,34 @@ nav li {
   font-weight: bold;
 }
 
-@media (max-width: 800px) {
-  .nav-lists {
-    display: none;
-  }
-}
-@media (max-width: 440px) {
+@media (max-width: 430px) {
   nav {
     width: 100vw;
-    gap: 1rem;
+    position: absolute;
   }
   .header {
+    font-family: sans-serif;
     font-size: 1rem;
   }
   .menu-bar {
-    display: block;
-    position: absolute;
-    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10px;
+    top: 10px;
   }
   .nav-lists {
     display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    padding: 2rem;
+    line-height: 3;
+    background-color: white;
+    box-shadow: 5px 5px 20px 2px rgba(175, 175, 175, 0.5);
   }
-  .nav-lists.active {
+  .nav-lists.block {
     display: block;
   }
 }

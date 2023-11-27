@@ -11,3 +11,11 @@
     font-size: larger;
     line-height: 2;
 }
+
+@media (max-width: 430px) {
+    .about {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}

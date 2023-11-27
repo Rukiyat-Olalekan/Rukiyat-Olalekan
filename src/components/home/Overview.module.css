@@ -12,8 +12,10 @@
     line-height: 2;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 430px) {
     .overview {
         display: none;
+        margin: 0;
+        padding: 0;
     }
 }
